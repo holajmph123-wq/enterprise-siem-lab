@@ -1,0 +1,29 @@
+# VMware
+*.vmdk
+*.vmx
+*.vmxf
+*.vmsd
+*.vmem
+*.nvram
+*.lck
+*.scoreboard
+*.vmss
+
+# VirtualBox
+*.vdi
+*.vbox
+*.vbox-prev
+
+# ISO
+*.iso
+
+# Logs
+*.log
+Logs/
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
