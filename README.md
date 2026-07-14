@@ -28,26 +28,26 @@ mapping to simulate a realistic SOC environment.
 
 ### Infrastructure
 
-  ----------------------------------------------------------------------
-  Host           Operating System                         Role
-  -------------- ---------------------------------------- --------------
-  JeanPc         Windows 11 Pro                           Management
-                                                          Host + Wazuh
-                                                          Agent
+  ---------------------------------------------------------------------
+  Host           Operating System                        Role
+  -------------- --------------------------------------- --------------
+  JeanPc         Windows 11 Pro                          Management
+                                                         Host + Wazuh
+                                                         Agent
 
-  DC01           Windows Server 2022                      Active
-                                                          Directory
-                                                          Domain
-                                                          Controller
+  DC01           Windows Server 2022                     Active
+                                                         Directory
+                                                         Domain
+                                                         Controller
 
-  linux-01       Ubuntu Server 24.04 LTS                  Linux
-                                                          Endpoint +
-                                                          auditd
+  linux-01       Ubuntu Server 24.04 LTS                 Linux
+                                                         Endpoint +
+                                                         auditd
 
-  wazuh-server   Ubuntu Server 24.04 LTS                  Wazuh Manager,
-                                                          Indexer and
-                                                          Dashboard
-  ----------------------------------------------------------------------
+  wazuh-server   Ubuntu Server 24.04 LTS                 Wazuh Manager,
+                                                         Indexer and
+                                                         Dashboard
+  ---------------------------------------------------------------------
 
 ## Technologies
 
